@@ -39,7 +39,7 @@ body {
 }
 
 @for $i from 3 through 1 {
-  .calendar-#{31-$i} > div:nth-last-child(-n+#{$i}) {
+  .calendar-#{31-$i} > div:nth-last-child(-n + #{$i}) {
     display: none;
   }
 }
